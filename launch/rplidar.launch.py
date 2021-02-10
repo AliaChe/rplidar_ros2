@@ -17,5 +17,6 @@ def generate_launch_description():
                 'inverted': False,
                 'angle_compensate': True,
             }],
+            remappings = [ ("scan", "laserscan/out")],
         ),
     ])
